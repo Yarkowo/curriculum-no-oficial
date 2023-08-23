@@ -1,0 +1,62 @@
+body{
+    background: rgb(252, 239, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#contenedor{
+    
+}
+
+header{
+    background: rgb(245, 200, 255);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+nav ul li{
+    
+    float: left;
+    margin: 10px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+.article{
+    border: 1px solid blueviolet;
+    
+    padding: 2%;
+}
+
+#contenido{
+    border: 1px solid blueviolet;
+    float:left;
+    width:70%;
+    min-height: 500px;
+}
+aside{
+    background:rgb(231, 123, 255);
+    float:right;
+    width:25%;
+    text-align: left;
+    padding:2%;
+    height:max-content;
+    
+    
+}
+
+footer{
+    background:rgb(130, 24, 154);
+    color: aliceblue;
+    min-height: 50px;
+    text-align:center;
+    line-height: 50px;
+}
+
